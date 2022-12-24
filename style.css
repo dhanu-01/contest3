@@ -1,0 +1,24 @@
+.container-fluid{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+  margin: 20px;
+}
+
+.navbar-nav a{
+    text-decoration: none;
+    color:wheat   
+}
+
+footer{
+    background-color: black;
+    color :aliceblue
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 20px;
+}
